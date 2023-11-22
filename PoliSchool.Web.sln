@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.7.34221.43
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PoliSchool.Web", "PoliSchool.Web\PoliSchool.Web.csproj", "{4331F09F-F85C-4459-8CC6-6D5F4867024C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PoliSchool.Web", "PoliSchool.Web\PoliSchool.Web.csproj", "{4331F09F-F85C-4459-8CC6-6D5F4867024C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PoliSchool.DAL", "PoliSchool.DAL\PoliSchool.DAL.csproj", "{6A4152C4-8904-4401-92B1-EFFA8800CC1D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PoliSchool.BL", "PoliSchool.BL\PoliSchool.BL.csproj", "{D7DD5456-1B68-45F0-850D-5B8AD274B543}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +19,14 @@ Global
 		{4331F09F-F85C-4459-8CC6-6D5F4867024C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4331F09F-F85C-4459-8CC6-6D5F4867024C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4331F09F-F85C-4459-8CC6-6D5F4867024C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6A4152C4-8904-4401-92B1-EFFA8800CC1D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6A4152C4-8904-4401-92B1-EFFA8800CC1D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6A4152C4-8904-4401-92B1-EFFA8800CC1D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6A4152C4-8904-4401-92B1-EFFA8800CC1D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D7DD5456-1B68-45F0-850D-5B8AD274B543}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D7DD5456-1B68-45F0-850D-5B8AD274B543}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D7DD5456-1B68-45F0-850D-5B8AD274B543}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D7DD5456-1B68-45F0-850D-5B8AD274B543}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
