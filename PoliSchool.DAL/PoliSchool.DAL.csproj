@@ -8,8 +8,6 @@
 
   <ItemGroup>
     <Folder Include="Models\" />
-    <Folder Include="Core\" />
-    <Folder Include="Entities\" />
     <Folder Include="DbObjects\" />
     <Folder Include="Contracts\" />
     <Folder Include="Context\" />
